@@ -7,7 +7,7 @@ namespace Shinobido_Custom_Missions_PS2_to_PSP
         public FrmMain()
         {
             InitializeComponent();
-
+            //Properties.Settings.Default.Reload();
             // PS2MCPath
             SaveSettingsPath("PS2MCPath", "Select the Memory Card PCSX2 Folder (Folder type only)");
             if (Properties.Settings.Default["PS2MCPath"].ToString() == "") Application.Exit();
@@ -30,9 +30,24 @@ namespace Shinobido_Custom_Missions_PS2_to_PSP
                 }
             }
 
-            if (folderBrowserDialog.SelectedPath != "")
-                Properties.Settings.Default[settingName] = folderBrowserDialog.SelectedPath;
+            if (folderBrowserDialog.SelectedPath != "") Properties.Settings.Default[settingName] = folderBrowserDialog.SelectedPath;
 
+        }
+
+        private void FrmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void toolStripButtonSettings_Click(object sender, System.EventArgs e)
+        {
+            FrmSettings frmSettings = new FrmSettings();
+            frmSettings.Show();
+        }
+
+        private void toolStripButtonExit_Click(object sender, System.EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

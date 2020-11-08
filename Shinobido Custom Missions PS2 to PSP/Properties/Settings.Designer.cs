@@ -46,5 +46,197 @@ namespace Shinobido_Custom_Missions_PS2_to_PSP.Properties {
                 this["PSPMSPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Assassination")]
+        public string TypeAssassination {
+            get {
+                return ((string)(this["TypeAssassination"]));
+            }
+            set {
+                this["TypeAssassination"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Total Destruction")]
+        public string TypeTotalDestruction {
+            get {
+                return ((string)(this["TypeTotalDestruction"]));
+            }
+            set {
+                this["TypeTotalDestruction"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Duel")]
+        public string TypeDuel {
+            get {
+                return ((string)(this["TypeDuel"]));
+            }
+            set {
+                this["TypeDuel"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Guard")]
+        public string TypeGuard {
+            get {
+                return ((string)(this["TypeGuard"]));
+            }
+            set {
+                this["TypeGuard"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Assault")]
+        public string TypeAssault {
+            get {
+                return ((string)(this["TypeAssault"]));
+            }
+            set {
+                this["TypeAssault"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Escort")]
+        public string TypeEscort {
+            get {
+                return ((string)(this["TypeEscort"]));
+            }
+            set {
+                this["TypeEscort"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Transport")]
+        public string TypeTransport {
+            get {
+                return ((string)(this["TypeTransport"]));
+            }
+            set {
+                this["TypeTransport"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Robbery")]
+        public string TypeRobbery {
+            get {
+                return ((string)(this["TypeRobbery"]));
+            }
+            set {
+                this["TypeRobbery"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Theft")]
+        public string TypeTheft {
+            get {
+                return ((string)(this["TypeTheft"]));
+            }
+            set {
+                this["TypeTheft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Kidnapping")]
+        public string TypeKidnapping {
+            get {
+                return ((string)(this["TypeKidnapping"]));
+            }
+            set {
+                this["TypeKidnapping"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Rescue")]
+        public string TypeRescue {
+            get {
+                return ((string)(this["TypeRescue"]));
+            }
+            set {
+                this["TypeRescue"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Collection")]
+        public string TypeCollection {
+            get {
+                return ((string)(this["TypeCollection"]));
+            }
+            set {
+                this["TypeCollection"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Type Travel")]
+        public string TypeTravel {
+            get {
+                return ((string)(this["TypeTravel"]));
+            }
+            set {
+                this["TypeTravel"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Editor Data")]
+        public string Title {
+            get {
+                return ((string)(this["Title"]));
+            }
+            set {
+                this["Title"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mission Name")]
+        public string Detail {
+            get {
+                return ((string)(this["Detail"]));
+            }
+            set {
+                this["Detail"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Created By ")]
+        public string CreatedBy {
+            get {
+                return ((string)(this["CreatedBy"]));
+            }
+            set {
+                this["CreatedBy"] = value;
+            }
+        }
     }
 }

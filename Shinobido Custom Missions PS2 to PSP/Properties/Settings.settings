@@ -8,5 +8,53 @@
     <Setting Name="PSPMSPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="TypeAssassination" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Assassination</Value>
+    </Setting>
+    <Setting Name="TypeTotalDestruction" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Total Destruction</Value>
+    </Setting>
+    <Setting Name="TypeDuel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Duel</Value>
+    </Setting>
+    <Setting Name="TypeGuard" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Guard</Value>
+    </Setting>
+    <Setting Name="TypeAssault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Assault</Value>
+    </Setting>
+    <Setting Name="TypeEscort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Escort</Value>
+    </Setting>
+    <Setting Name="TypeTransport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Transport</Value>
+    </Setting>
+    <Setting Name="TypeRobbery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Robbery</Value>
+    </Setting>
+    <Setting Name="TypeTheft" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Theft</Value>
+    </Setting>
+    <Setting Name="TypeKidnapping" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Kidnapping</Value>
+    </Setting>
+    <Setting Name="TypeRescue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Rescue</Value>
+    </Setting>
+    <Setting Name="TypeCollection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Collection</Value>
+    </Setting>
+    <Setting Name="TypeTravel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Type Travel</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Editor Data</Value>
+    </Setting>
+    <Setting Name="Detail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mission Name</Value>
+    </Setting>
+    <Setting Name="CreatedBy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Created By </Value>
+    </Setting>
   </Settings>
 </SettingsFile>

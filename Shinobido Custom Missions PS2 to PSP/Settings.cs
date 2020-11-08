@@ -1,4 +1,4 @@
-﻿namespace Shinobido_Custom_Missions_PS2_to_PSP.Properties {
+﻿namespace Properties {
     
     
     // Esta clase le permite controlar eventos específicos en la clase de configuración:
