@@ -56,5 +56,8 @@
     <Setting Name="CreatedBy" Type="System.String" Scope="User">
       <Value Profile="(Default)">Created By </Value>
     </Setting>
+    <Setting Name="GameTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Shinobido: Tales of the Ninja</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

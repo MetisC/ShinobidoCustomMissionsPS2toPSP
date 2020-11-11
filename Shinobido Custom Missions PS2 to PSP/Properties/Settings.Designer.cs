@@ -238,5 +238,17 @@ namespace Shinobido_Custom_Missions_PS2_to_PSP.Properties {
                 this["CreatedBy"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Shinobido: Tales of the Ninja")]
+        public string GameTitle {
+            get {
+                return ((string)(this["GameTitle"]));
+            }
+            set {
+                this["GameTitle"] = value;
+            }
+        }
     }
 }
